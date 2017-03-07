@@ -18,12 +18,12 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.automaticallyAdjustsScrollViewInsets = false
-        self.title = "设置"
+        self.title = NSLocalizedString("settings", comment: "default")
         self.table.separatorStyle = UITableViewCellSeparatorStyle.none
         self.table.delegate = self;
         self.table.dataSource = self;
         self.table.register(ItemTableViewCell.classForCoder(), forCellReuseIdentifier: "cell")
-        self.data = [["账号与安全"],["公告信息","一件反馈","为我评分"],["分享账号设置","清除缓存"],["关于","客服电话"]]
+        self.data = [[NSLocalizedString("accountSafe", comment: "defult")],[NSLocalizedString("notice", comment: "default"),NSLocalizedString("advice", comment: "default"),NSLocalizedString("rank", comment: "default")],[NSLocalizedString("share", comment: "default"),NSLocalizedString("clearCache", comment: "default")],[NSLocalizedString("about", comment: "default"),NSLocalizedString("tele", comment: "default")]]
         
         let line:UIView! = UIView()
         line.backgroundColor=UIColor.lightGray
@@ -60,7 +60,16 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
         tableView.deselectRow(at: indexPath, animated: true)
+        if indexPath.row == 0 && indexPath.section == 0 {
+            let vc:UIViewController! = AccountSafeViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        if indexPath.row == 0 && indexPath.section == 1 {
+            let vc:UIViewController! = NoticeUIViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

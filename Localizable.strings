@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Settings
+
+  Created by jackli on 2017/3/7.
+  Copyright © 2017年 jackli. All rights reserved.
+*/
+
+"settings" = "设置";
+"accountSafe" = "账号与安全";
+"notice" = "公告信息";
+"advice" = "意见反馈";
+"rank" = "为我评分";
+"share" = "分享账号设置";
+"clearCache" = "清除缓存";
+"about" = "关于";
+"tele" = "客服电话";
+"setPayPwd" = "设置支付密码";
+"changeLoginPwd" = "修改登录密码";
+"bindPhone" = "绑定手机";

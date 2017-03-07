@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4845FA71E6E536E00A646CA /* AccountSafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4845FA61E6E536E00A646CA /* AccountSafeViewController.swift */; };
+		A4845FA91E6E548C00A646CA /* AccountSafeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4845FA81E6E548C00A646CA /* AccountSafeTableViewCell.swift */; };
+		A4845FAB1E6E5B5000A646CA /* NoticeUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4845FAA1E6E5B5000A646CA /* NoticeUIViewController.swift */; };
+		A4845FAD1E6E634700A646CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4845FAC1E6E634700A646CA /* Localizable.strings */; };
 		A48D3AEE1E6D420800BBF5A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D3AED1E6D420800BBF5A8 /* AppDelegate.swift */; };
 		A48D3AF01E6D420800BBF5A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D3AEF1E6D420800BBF5A8 /* ViewController.swift */; };
 		A48D3AF31E6D420800BBF5A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48D3AF11E6D420800BBF5A8 /* Main.storyboard */; };
@@ -68,6 +72,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4845FA61E6E536E00A646CA /* AccountSafeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSafeViewController.swift; sourceTree = "<group>"; };
+		A4845FA81E6E548C00A646CA /* AccountSafeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSafeTableViewCell.swift; sourceTree = "<group>"; };
+		A4845FAA1E6E5B5000A646CA /* NoticeUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeUIViewController.swift; sourceTree = "<group>"; };
+		A4845FAC1E6E634700A646CA /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		A48D3AEA1E6D420800BBF5A8 /* Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Settings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48D3AED1E6D420800BBF5A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A48D3AEF1E6D420800BBF5A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +154,7 @@
 		A48D3AE11E6D420800BBF5A8 = {
 			isa = PBXGroup;
 			children = (
+				A4845FAC1E6E634700A646CA /* Localizable.strings */,
 				A4BE45DF1E6D5E6E008AC0F9 /* Libs */,
 				A48D3AEC1E6D420800BBF5A8 /* Settings */,
 				A48D3B011E6D420800BBF5A8 /* SettingsTests */,
@@ -174,6 +183,9 @@
 				A48D3AF61E6D420800BBF5A8 /* LaunchScreen.storyboard */,
 				A48D3AF91E6D420800BBF5A8 /* Info.plist */,
 				A48D3B1B1E6D4F2900BBF5A8 /* ItemTableViewCell.swift */,
+				A4845FA61E6E536E00A646CA /* AccountSafeViewController.swift */,
+				A4845FA81E6E548C00A646CA /* AccountSafeTableViewCell.swift */,
+				A4845FAA1E6E5B5000A646CA /* NoticeUIViewController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -353,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A48D3AF81E6D420800BBF5A8 /* LaunchScreen.storyboard in Resources */,
+				A4845FAD1E6E634700A646CA /* Localizable.strings in Resources */,
 				A48D3AF51E6D420800BBF5A8 /* Assets.xcassets in Resources */,
 				A48D3AF31E6D420800BBF5A8 /* Main.storyboard in Resources */,
 			);
@@ -399,6 +412,7 @@
 				A4BE461D1E6D5E6E008AC0F9 /* ConstraintView+Extensions.swift in Sources */,
 				A4BE46091E6D5E6E008AC0F9 /* ConstraintInsets.swift in Sources */,
 				A4BE46111E6D5E6E008AC0F9 /* ConstraintMaker.swift in Sources */,
+				A4845FAB1E6E5B5000A646CA /* NoticeUIViewController.swift in Sources */,
 				A4BE46231E6D5E6E008AC0F9 /* UILayoutSupport+Extensions.swift in Sources */,
 				A4BE46141E6D5E6E008AC0F9 /* ConstraintMakerFinalizable.swift in Sources */,
 				A4BE46131E6D5E6E008AC0F9 /* ConstraintMakerExtendable.swift in Sources */,
@@ -412,6 +426,8 @@
 				A4BE46221E6D5E6E008AC0F9 /* LayoutConstraintItem.swift in Sources */,
 				A4BE46041E6D5E6E008AC0F9 /* ConstraintAttributes.swift in Sources */,
 				A4BE460A1E6D5E6E008AC0F9 /* ConstraintInsetTarget.swift in Sources */,
+				A4845FA71E6E536E00A646CA /* AccountSafeViewController.swift in Sources */,
+				A4845FA91E6E548C00A646CA /* AccountSafeTableViewCell.swift in Sources */,
 				A4BE460D1E6D5E6E008AC0F9 /* ConstraintLayoutGuide.swift in Sources */,
 				A4BE460B1E6D5E6E008AC0F9 /* ConstraintItem.swift in Sources */,
 				A4BE460F1E6D5E6E008AC0F9 /* ConstraintLayoutSupport.swift in Sources */,
